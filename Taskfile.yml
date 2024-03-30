@@ -1,0 +1,10 @@
+version: 3
+
+includes:
+  vm:
+    taskfile: ./taskfiles/lima/template.taskfile.yml
+    vars:
+      VM_NAME: learning-ebpf
+      VM_CPUS: 4
+      VM_MEM: 10GiB
+      VM_TEMPLATE: learning-ebpf.yaml
